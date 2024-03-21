@@ -1,0 +1,29 @@
+{
+    "children" : [{
+        "text" : "components",
+        "expanded" : false,
+        "children" : [{
+            "text" : "mainpage.js",
+            "leaf" : true
+        },{
+            "text" : "mainpage.css",
+            "leaf" : true
+        }]
+    },{
+        "text" : "app.js",
+        "leaf" : true
+    },{
+        "text" : "index.html",
+        "leaf" : true
+    },{
+        "text" : "data",
+        "expanded" : false,
+        "children" : [{
+            "text" : "data.json",
+            "leaf" : true
+        },{
+            "text" : "data2.json",
+            "leaf" : true
+        }]
+    }]
+}

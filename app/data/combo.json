@@ -1,0 +1,18 @@
+{
+    "data" :
+    [{
+        "name": "John Doe",
+        "age": 54,
+        "email": "johndoe@gmail.com",
+        "phone": "123-456-7890",
+        "address": "1234 Main St, Anytown, USA"
+    
+    },
+    {
+        "name": "Jane Doe",
+        "age": 54,
+        "email": "janedoe@gmail.com",
+        "phone": "123-456-7894"
+    }]
+}
+
