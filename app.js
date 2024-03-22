@@ -6,10 +6,19 @@ Ext.require([
     'MyApp.components.Lesson17',
     'MyApp.components.Lesson18',
     'MyApp.components.Lesson19',
+    'MyApp.components.Lesson20',
+    // 'MyApp.components.Lesson21',
+    // 'MyApp.components.Lesson22',
+    'MyApp.components.Lesson23',
+    'MyApp.components.Lesson24',
+    'MyApp.components.Lesson25_makingIDE',
+    'MyApp.view.main.web1',
+    'MyApp.view.login.login',
 ]);
 
 Ext.onReady(function() {
-    MyApp.components.Lesson20.main();
+    MyApp.view.main.web1.main();
+    // MyApp.view.login.login.main();
 });
 
 //14강 내용
