@@ -8,7 +8,7 @@ Ext.define('MyApp.view.main.web1', {
                     xtype: 'panel',
                     region: 'north',
                     // title: 'Market Admin',
-                    header: false,
+                    // header: false,
                     items: [{
                         xtype: 'toolbar',
                         items: [{
@@ -44,9 +44,9 @@ Ext.define('MyApp.view.main.web1', {
                                 console.log(record.get('page'));
                                 const centerPage = obj.up('viewport').down('component[region=center]');
                                 centerPage.removeAll(true);
-                                if (record.get('page') === 'user-list') {
+                                if (record.get('page') === 'customer-list') {
                                     centerPage.add({
-                                        xtype: 'user-list'
+                                        xtype: 'customer-list'
                                     });
                                 } else if (record.get('page') === 'product-list') {
                                     centerPage.add({
@@ -87,7 +87,7 @@ Ext.define('MyApp.view.main.web1', {
                                     iconCls : 'x-fa fa-users',
                                     children : [{
                                         text : '고객목록',
-                                        page : 'user-list',
+                                        page : 'customer-list',
                                         leaf : true
                                     },]
                                 },]

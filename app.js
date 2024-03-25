@@ -14,6 +14,10 @@ Ext.require([
     'MyApp.components.Lesson25_makingIDE',
     'MyApp.view.main.web1',
     'MyApp.view.login.login',
+    'MyApp.view.login.join',
+    'MyApp.view.order.orderlistcontroller',
+    'MyApp.view.product.productlistcontroller',
+    'MyApp.view.customer.customerlistcontroller',
 ]);
 
 Ext.onReady(function() {
